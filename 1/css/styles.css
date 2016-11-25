@@ -1,0 +1,240 @@
+.modal-window {
+    width: 898px;
+    padding: 150px 10px 10px 10px;
+
+    background: #f1f1f1;
+    height: 100vh;
+    margin: 0 auto;
+}
+
+
+table {
+  width: 100%; /* Ширина таблицы */
+      border: 1px solid #399; /* Граница вокруг таблицы */
+      border-spacing: 7px 5px; /* Расстояние между границ */
+}
+
+tr {
+    display: table-row;
+}
+
+td {
+      border: 5px solid #fff; /* Граница вокруг ячеек */
+      padding: 5px; /* Поля в ячейках */
+}
+
+td .elem {
+    /*background: #fff;*/
+    width: 100%;
+    /*display: table-cell;*/
+    padding: 5px;
+}
+
+.elem > div {
+  /*position: absolute;
+  width: 100%;
+  height: 100%;*/
+}
+
+.class-1 {
+  /*position: absolute;*/
+width: 100%;
+height: 100%;
+top: 10px;
+left: 0;
+right: 0;
+bottom: 0;
+display: inline-table;
+}
+
+.class-2 {
+  height: calc(100% - 20px);
+      padding: 15px;
+      background: #fff;
+      vertical-align: middle;
+      display: table-cell;
+}
+
+.percent-width-5 {
+    width: 5%;
+}
+.percent-width-10 {
+    width: 10%;
+}
+.percent-width-15 {
+    width: 15%;
+}
+.percent-width-20 {
+    width: 20%;
+}
+.percent-width-30 {
+    width: 30%;
+}
+.percent-width-40 {
+    width: 40%;
+}
+.percent-width-45 {
+    width: 45%;
+}
+.percent-width-50 {
+    width: 50%;
+}
+.percent-width-60 {
+    width: 60%;
+}
+.percent-width-70 {
+    width: 70%;
+}
+.percent-width-80 {
+    width: 80%;
+}
+.percent-width-90 {
+    width: 90%;
+}
+.percent-width-100 {
+    width: 100%;
+}
+
+/*
+.bundle-scheme-section .section-body{
+    max-height: 200px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.added-visibility {
+    background: #fff;
+    padding: 0px;
+    margin: 0px;
+    border: 1px dotted #ccc;
+}
+
+.added-visibility .visibility-rule > div {
+    padding: 5px;
+}
+
+.added-visibility .visibility-rule .pair {
+        padding: 0px;
+        margin: 0px;
+        border: 1px dotted #ccc;
+}
+
+.added-visibility .visibility-rule .question-name, .answer-name {
+        border: 1px solid #ccc;
+        background: #f1f1f1;
+        padding: 5px;
+        margin: 5px;
+        display: inline-block;
+        vertical-align: middle;
+}
+
+.added-visibility .visibility-rule button {
+      padding: 0;
+      background: none;
+      color: #000 !important;
+}
+
+.arrow {
+    margin-left: -5px;
+    margin-right: -11px;
+}
+
+.arrow:after {
+        content: "\E250";
+        font-family: 'Glyphicons Halflings';
+        background: none;
+        color: #777777;
+        position: relative;
+        top: 3px;
+        left: -3px;
+}
+.arrow:before {
+        content: "___";
+        color: #777777;
+        font-size: 16px;
+        top: -6px;
+        position: relative;
+}
+
+.arrow-column {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.arrow-column .arrow {
+        margin-left: -9px;
+        margin-right: -15px;
+}
+.arrow-column .arrow:after {
+    top: 5px;
+}
+.arrow-column .arrow:before {
+    content: "______";
+    top: -4px;
+}
+
+.bundle-scheme, .selected-answers {
+        background: #ffffff;
+        padding: 5px;
+        // display: inline-block;
+}
+
+
+.bundle-scheme, .selected-answers tbody {
+            border: 1px dotted #ccc;
+            width: 100%;
+            // display: inline-block;
+}
+.bundle-scheme, .selected-answers tbody > tr {
+            // width: 100%;
+}
+.bundle-scheme, .selected-answers tbody > tr > td {
+            // position: relative;
+        }
+.bundle-scheme, .selected-answers span {
+            background: #f1f1f1;
+            width: 100%;
+            border: 1px solid #cccccc;
+            padding: 7px;
+            text-align: center;
+            position: relative;
+            display: inline-block;
+            word-wrap: break-word;
+            word-break: break-word;
+}
+.bundle-scheme, .selected-answers .arrows span:after,
+.bundle-scheme, .selected-answers .arrows span:before {
+    content: "\E092";
+    position: absolute;
+    font-size: 17px;
+    font-family: 'Glyphicons Halflings';
+    margin-top: -13px;
+    top: 50%;
+}
+.bundle-scheme, .selected-answers .arrows span:before {
+                left:-17px;
+}
+.bundle-scheme, .selected-answers .arrows span:after {
+                right:-18px;
+}
+
+.bundle-scheme-question {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+.bundle-scheme-question > div {
+    display: table;
+    height: 100%;
+    width: 100%;
+}
+.bundle-scheme-question p {
+                  display: table-cell;
+                  vertical-align: middle;
+}
+
+.bundle-scheme {
+    // display: block;
+    margin-bottom: 5px;
+    border: 1px solid #ccc;
+}*/
